@@ -1,0 +1,7 @@
+#+title: Exercise 0.1.1
+
+Since $\mathcal{P}(A)$ is a set of sets, as long as A is not a set of
+sets, it is obvious that $A$ is not a subset of $\mathcal{P}(A)$.
+
+For example, let $A = \{1, 2, 3\}$, then \(\mathcal{P}(A) = \{\emptyset,
+\{1\}, \{2\}, \{1, 2\}\}\). Obviously, \(A \not \subset \mathcal{P}(A)\).
