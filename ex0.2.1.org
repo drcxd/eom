@@ -1,0 +1,5 @@
+#+title: Exercise 0.2.1
+
+Assume \(A = \{1, 2\}\), then \(\mathcal{P}(A) = \{\emptyset, \{1\}, \{2\},
+\{1, 2\}\}\). \(\{1\} \not \subset \{2\}\) and \(\{2\} \not \subset \{1\}\), thus \(\subset\)
+is not total on \(\mathcal{P}(A)\).
