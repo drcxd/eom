@@ -1,0 +1,15 @@
+#+title: Exercise 0.3.3
+
+Assume \(A\) has \(n_a\) elements and \(B\) has \(n_b\) elements, then
+we have:
+
+\[2^{n_b} - 2^{n_a} = 56\]
+
+Obviously,
+
+\[\begin{cases}
+n_b &= 6 \\
+n_a &= 3
+\end{cases}\]
+
+is the solution.
