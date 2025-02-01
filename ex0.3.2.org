@@ -1,0 +1,9 @@
+#+title: Exercise 0.3.2
+
+If an equivalent relation \(R\) on \(A\) is functional, the it must
+satisfy the vertical intersection property, that is \(R \cap \{a\} \times A\),
+for some \(a \in A\) exactly once. That is, for some \(a \in A\), there is
+only one element \(a' \in A\) such that \(aRa'\). Since \(R\) is an
+equivalent relation, it is relfexive, thus we have for any \(a \in A\),
+itself is the only element that satisfy the relation \(aRa\). This
+means that \(R = \mathbf{1}_A\).
