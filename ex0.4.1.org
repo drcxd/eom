@@ -1,0 +1,11 @@
+#+title: Exercise 0.4.1
+
+To prove \(A\) is uncountable, we can prove \(|A|
+= |\mathcal{P}(\mathbb{N})|\). This can be done by finding a bijection
+\(f : A \rightarrow \mathcal{P}(\mathbb{N})\).
+
+A sequence \(s \in \mathcal{P}(\mathbb{N}) \rightarrow \{0, 1\}\) can be mapped
+to an element of \(\mathcal{P}(\mathbb{N})\) in such a way that if the
+\(i\)-th number in the sequence is 1, then the number \(i\) is an
+element of the mapped set. Obviously, this is a bijection. By Cantor
+Theorem, we have \(|A| = |\mathcal{P}(N)| > |\mathbb{N}|\).
