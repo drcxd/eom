@@ -3,10 +3,11 @@
 First, we prove if there exists an injective map \(f : A \rightarrow B\), then
 there exists a surjective map \(g : B \rightarrow A\):
 
-Since \(f\) is injective we have \(a \neq a' \Rightarrow f(a) \neq f(a'), a, a' \in A\),
-thus, we can define \(g\) as \(g : f(X) \rightarrow A\), \(g(b) = a\) such that
-\(f(a) = g(b)\). \(g\) is surjective since for any unique \(a \in A\)
-there exists a unique \(f(a) \in B\), for \(f\) is injective.
+Since \(f\) is injective we have \(a \neq a' \Rightarrow f(a) \neq f(a'), a, a' \in
+A\), thus, we can define \(g\) as \(g : f(X) \rightarrow A\), \(g(b) = a\) such
+that \(f(a) = g(b)\). \(g\) is surjective since for any unique \(a \in
+A\) there exists one and only one \(f(a) \in B\), for \(f\) is
+injective.
 
 Then, we prove if there exists a surjective map \(g : B \rightarrow A\), then
 there exists an injective map \(f : A \rightarrow B\):

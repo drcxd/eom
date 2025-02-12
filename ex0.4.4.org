@@ -1,0 +1,32 @@
+#+title: Exercise 0.4.4
+
+"the number of possible sums" means that the same sum coming from
+different elements count as one? For example, \(1 + 4\) and \(2 + 3\).
+
+We can solve this problem by first determine the possible number of
+combinations of choosing \(m\) elements from \(n\) elements, then
+minus the number of duplicate sums from it.
+
+I can not figure out how to compute the number of duplicated
+sums. Thus, this way does not work.
+
+Another way to solve the problem is to notice that all sums are
+consecutive natural numbers in a certain range when working on some
+specific cases of the problem.
+
+The smallest sum is the sum of the \(m\) smallest elements of \(\{1,
+2, ..., n\}\), while the greatest sum is the sum of the \(m\) greatest
+elements. By carefully select the elements of the \(m\)-element
+subset, we can make its sum be an arbitrary number in the range. For
+example, assume we start with the \(m\) greatest elements, we can
+always make the sum smaller by one by replacing one element of the
+subset by another one that is one smaller than the element and outside
+the subset. This can be done until the \(m\) elements are the \(m\)
+smallest elements of \(\{1, 2, ..., n\}\).
+
+Thus, the number of possible sums is
+
+\[\begin{align*}
+S_{\text{max}} - S_{\text{min}} + 1 &= n + (n - 1) + ... + (n - (m - 1)) + 1 + ... + m + 1 \\
+&= m(n+1) + 1
+\end{align*}\]
