@@ -1,0 +1,13 @@
+#+title: Exercise 0.5.1
+
+\[\mathcal{P}(\{\emptyset\}) = \{\emptyset, \{\emptyset\}\}\]
+
+\[\mathcal{P}(\{\emptyset, \{\emptyset\}\}) = \{\emptyset, \{\emptyset\}, \{\{\emptyset\}\}, \{\emptyset, \{\emptyset\}\}\}\]
+
+\[\mathcal{P}(\mathcal{P}(\emptyset)) = \mathcal{P}(\{\emptyset\})\]
+
+since
+
+\[\mathcal{P}(\emptyset) = \{\emptyset\}\]
+
+\[\mathcal{P}(\mathcal{P}(\{\emptyset\})) = \mathcal{P}(\{\emptyset, \{\emptyset\}\})\]
